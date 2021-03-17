@@ -15,7 +15,8 @@ except redis.ConnectionError:
     print('connection fail')
 '''
 
-HOST = '211.253.236.72'
+#HOST = '211.253.236.72'
+HOST = '127.0.0.1'
 PORT = 6379
 DB=0
 
