@@ -13,12 +13,18 @@ dic = {}
 length = 100
 tmp= df.head(length)
 
+print (type(tmp))
+# get column name 
 names = []
 for i in tmp:
     names.append(i)
 names = names[2:]
+
+print (f'names = {names}')
+
 for i in names:
     dic[i] = list(tmp[i])
+    print (f'{i} = {dic[i]}')
 
 
 ####
